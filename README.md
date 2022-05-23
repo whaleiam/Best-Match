@@ -73,25 +73,24 @@
 <div id="run">
   <h1>Run the Program</h1>  
 </div>
-  In order to run the program, the following must be done: <br>
-  Make sure that the provided **makefile** is in the same directory as the rest of the project. Then open 6 terminals running in a Linux environment. 
-  <br>
-  Run:
-  ```
-  make all
-  ```
-  in order to first create the object files of each client and server program. Then on each open terminal, run a single program instance with:
-  ```
-  ./central
-  ./serverT
-  ./serverS
-  ./serverP
-  ./clientA
-  ./clientB
-  ```
-  Then in the terminals running the client program, type any two user names and you have successfully run the program.
+In order to run the program, compile under **Linux**. You'd need at least C++17 `g++` (default) compiler. Open _Terminal_ console in your `Best Match` folder and follow the following steps:: <br>
+<br>
+Run:
+```
+$ make all
+```
+in order to first create the object files of each client and server program. Then on each open terminal, run a single program instance with:
+```
+./central
+./serverT
+./serverS
+./serverP
+./clientA
+./clientB
+```
+Then in the terminals running the client program, type any two user names and you have successfully run the program.
   
-  <br>
-  <br>
-  ## Note
-  The graphs and scores text files can be modified to your liking.
+<br>
+<br>
+## Note
+The graphs and scores text files can be modified to your liking.
